@@ -15,5 +15,15 @@ public static void main(String[] args) {
     String[] lista = {"mela", "arancia", "susina", "banana", "fragola"};
     String[] inserisci = esempio.InserisciInArray(lista, "pera");
     System.out.println(Arrays.toString(inserisci));
+
+    EsercizioTre altroEsempio = new EsercizioTre();
+    int areaRettangolo = altroEsempio.perimetroRettangolo(6,4);
+    System.out.println(areaRettangolo);
+
+    int modulo = altroEsempio.pariOdispari(9);
+    System.out.println(modulo);
+
+    double areatriangolo = altroEsempio.areaTriangolo(5,7,9);
+    System.out.println(areatriangolo);
 }
 }
