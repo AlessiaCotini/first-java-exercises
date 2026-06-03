@@ -23,7 +23,7 @@ public static void main(String[] args) {
     int modulo = altroEsempio.pariOdispari(9);
     System.out.println(modulo);
 
-    double areatriangolo = altroEsempio.areaTriangolo(5,7,9);
+    double areatriangolo = altroEsempio.areaTriangolo(6,8,4);
     System.out.println(areatriangolo);
 }
 }
